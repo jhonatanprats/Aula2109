@@ -4,9 +4,9 @@
 
 // alert(`Olá! Seja bem vindo, ${nome} !!!`);
 
-let entrada = (prompt("Digite um número aqui': "));
+let entrada = (prompt("Digite um número aqui: "));
 
-if(entrada.trim()){
+if(entrada && entrada.trim()){
     let numero = Number(entrada);
     if(numero > 15){
     console.log("Numero maior que 15.");
